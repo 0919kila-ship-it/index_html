@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="zh">
+
+    <head>
+        <meta charset="utf-8">
+        <title>我的第一份html5文件</title>
+    </head>
+
+    <body>
+        <h1>hello! html5!</h1>
+        <h1>hello! html5!</h1>
+        <h1>我的第一份html5文件!</h1>
+        <h1>test</h1>
+    </body>
+
+</html>
+
+<html>
+<head>
+    <meta>
+    <title></title>
+</head>
+</html>
+
+html>head>meta+title^body>h1+h1+h1+h1
+<html>
+<head>
+    <meta>
+    <title></title>
+</head>
+<body>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+</body>
+</html>
+
+html>head>meta+title^body>h1*4
+<html>
+<head>
+    <meta>
+    <title></title>
+</head>
+<body>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+</body>
+</html>
+
+html>head>meta+title^body>(h1+h2)*4
+<html>
+<head>
+    <meta>
+    <title></title>
+</head>
+<body>
+    <h1></h1>
+    <h2></h2>
+    <h1></h1>
+    <h2></h2>
+    <h1></h1>
+    <h2></h2>
+    <h1></h1>
+    <h2></h2>
+    h1{hello! html5!}
+    <h1>hello! html5!</h1>
+    meta[charset="utf-8"]
+    <meta charset="utf-8">
+
+</body>
+</html>
+
+<h1 id="first"></h1>
+h1#first
+<h1 id="first"></h1>
+
+<h1 class="second"></h1>
+h1.second
+<h1 class="second"></h1>
+
+h1{test$}*5
+<h1>test1</h1>
+<h1>test2</h1>
+<h1>test3</h1>
+<h1>test4</h1>
+<h1>test5</h1>
+h1{test$$}*2
+<h1>test01</h1>
+<h1>test02</h1>
+h1{test$$@4}*3
+<h1>test04</h1>
+<h1>test05</h1>
+<h1>test06</h1>
+
+h1{test$$@-}*5
+<h1>test05</h1>
+<h1>test04</h1>
+<h1>test03</h1>
+<h1>test02</h1>
+<h1>test01</h1>
+h1{test$$@-6}*5
+<h1>test10</h1>
+<h1>test09</h1>
+<h1>test08</h1>
+<h1>test07</h1>
+<h1>test06</h1>

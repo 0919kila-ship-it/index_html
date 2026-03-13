@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蘋果 iPhone</title>
+</head>
+<body>
+    <img src="https://picsum.photos/id/1076/600/400" alt="">
+    
+        <h2>iPhone 18 Pro測試深紅旗艦新色ing</h2>
+        <p>在iPhone 17 Pro與iPhone 17 Pro Max成功以「宇宙橘」抓住消費者目光並於亞洲市場大獲好評後。 </p>
+        <h3>告別宇宙橘 iPhone 18 Pro傳測試深紅新色 首款摺疊機卻走保守風</h3>
+        <p>這項突破主要得益於機身材質轉向全鋁金屬一體成型設計，讓蘋果在處理高階機型的著色工藝時。 </p>
+</body>
+</html>

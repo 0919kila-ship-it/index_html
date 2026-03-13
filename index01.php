@@ -1,10 +1,24 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>蘋果 iPhone</title>
+    <title><?php echo "這是我的第一支程式";?></title>
 </head>
+    <?php echo "<body>\n";?>
+    <table border="1">
+        <tr>
+            <th id="bookname">書名</th>
+            <th id="bookprice">價格</th>
+        </tr>
+        <tr>
+            <td headers="bookname">PHP學習手冊</td>
+            <td headers="bookprice">300</td>
+        </tr>
+       <tr>
+            <td><?php echo "這是我的第一支程式";?></td>
+            <td>300</td>
+       </tr>
+       </table>
 <body>
     <img src="https://picsum.photos/id/1076/600/400" alt="">
     

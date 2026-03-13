@@ -7,15 +7,12 @@
 <body>
     <p>
     <?= 
-    $rr="PHP變數與應用加總:"; 
-    $mm=10;
-    $cc=6.6;
-    $dd=false;
-    $sum=$mm+$cc;
+    $rr="100"; 
+    var_dump($rr);
 
 /* var dump(變數)函數顯示變數的資料型態和值 */
 
-    var_dump($dd);
+   
     
     ?> 
 

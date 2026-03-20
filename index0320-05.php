@@ -1,51 +1,35 @@
-<?php
-//GET 系統自動
-/*$chinese=$_GET['c'];
-$english=$_GET['e'];
-$math=$_GET['m'];*/
-
-
-//運算子
-$chinese=90;
-$english=80;
-$math=70;
-
-$sum = $chinese+$english+$math;
-$avg = $sum/3;
-?>
-
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <title>ch02_7a.php</title>
-    <style>
-</style>
-
+    <title>ch02_06-if.php</title>
 </head>
 <body>
-<table border=1>
-    <tr>
-        <td style="width:200px;">國文</td>
-        <td style="width:200px;"><?=$chinese?></td>
-    </tr>
-    <tr>
-        <td style="width:200px;">英文</td>
-        <td style="width:200px;"><?=$english?></td>
-    </tr>
-    <tr>
-        <td style="width:200px;">數學</td>
-        <td style="width:200px;"><?=$math?></td>
-    </tr>
-    <tr>
-        <td style="width:200px;">總分</td>
-        <td style="width:200px;"><?=$sum?></td>
-    </tr>
-    <tr>
-        <td style="width:200px;">平均</td>
-        <td style="width:200px;"><?=$avg?></td>
-    </tr> 
-</table>
 
+<p>
+<?php
+$A=80;
+$B="20";
+$c=($A+$B)/2;
+
+if($A==$B )
+    {
+    echo"條件成立";
+    }
+else
+    {
+    echo"條件不成立";
+    }
+
+
+// == 2個等於只要數字一樣就會成立
+// === 3個等於要型態相同才會成立
+// if 如果條件成立，就做這件事
+// else 如果不成立，就做另一件事
+// echo 把資料結果顯示出來（輸出到畫面）
+?>
+</p>
+
+<hr/>
 </body>
 </html>

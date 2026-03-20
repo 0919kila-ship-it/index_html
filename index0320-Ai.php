@@ -11,7 +11,7 @@
         }
 
         h1 {
-            color: #333;
+            color: #30043b;
         }
 
         table {

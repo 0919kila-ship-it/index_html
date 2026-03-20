@@ -2,7 +2,7 @@
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <title>0320_07 九九乘法表</title>
+    <title>0320_07 九九乘法表</title>    
 </head>
 <body>
     <h1>九九乘法表</h1>
